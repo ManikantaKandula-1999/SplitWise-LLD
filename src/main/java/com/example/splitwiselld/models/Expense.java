@@ -32,4 +32,7 @@ public class Expense extends BaseClass{
     @Column(name = "split_type")
     @Enumerated(EnumType.STRING)
     private SplitType splitType;
+
+    @Transient
+    private List<Long> userIds;
 }

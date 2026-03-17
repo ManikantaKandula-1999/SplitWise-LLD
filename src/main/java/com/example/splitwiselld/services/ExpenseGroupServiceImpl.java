@@ -3,7 +3,6 @@ package com.example.splitwiselld.services;
 import com.example.splitwiselld.models.ExpenseGroup;
 import com.example.splitwiselld.models.User;
 import com.example.splitwiselld.repositories.ExpenseGroupRepository;
-import com.example.splitwiselld.repositories.ExpenseRepository;
 import com.example.splitwiselld.repositories.UserRepository;
 import org.springframework.stereotype.Service;
 
